@@ -2,6 +2,13 @@
 
 A complete MERN stack Team Task Manager where users can create projects, assign tasks, track task status, and view dashboard analytics with Admin/Member role-based access.
 
+## Live Links
+
+🔗 **Live Website:** https://team-task-manager-production-5630.up.railway.app  
+🔗 **Backend API Health Check:** https://team-task-manager-production-be95.up.railway.app/api/health
+
+## Features
+
 ## Features
 
 - Signup and login authentication using JWT
