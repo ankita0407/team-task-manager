@@ -3,7 +3,7 @@
 body{
   margin:0;
   font-family:Inter,Arial,sans-serif;
-  background:#f5f7fb;
+  background:linear-gradient(135deg, #1e3a8a, #3b82f6);
   color:#172033;
 }
 
@@ -58,13 +58,16 @@ main{
   background-repeat: no-repeat;
 }
 
-.card{
-  background:#fff;
-  border:1px solid #e5e8ef;
-  border-radius:18px;
-  padding:22px;
-  box-shadow:0 8px 24px rgba(15,23,42,.06);
-  margin-bottom:18px;
+.card {
+  background: #fff;
+  border-radius: 18px;
+  padding: 22px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
 }
 
 .form{
